@@ -1,0 +1,48 @@
+/* HomePage.css */
+
+.home-container {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  text-align: center;
+  
+  /* Fullscreen centering */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* Prevents unexpected overflow */
+  width: 100vw;
+  height: 100vh;
+}
+
+
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    display: inline-block !important;
+    width: fit-content !important;
+    min-width: unset !important; /* Ensures no min-width is forcing a larger size */
+    max-width: unset !important;
+    background-color: #007bff; /* Blue color */
+    color: white;
+    border: none;
+    padding: 8px 15px; /* Reduced padding for smaller button */
+    font-size: 0.9rem; /* Slightly smaller font size */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  button:focus {
+    outline: none; /* Remove focus outline */
+  }
+  
