@@ -1,0 +1,15 @@
+javascript async: represents asynchronous functions. asynchronous functions are functions that take time to execute 
+( e.g fetching data), but do not interfere 
+or block the execution of the rest of the program. these functions always return
+"Promises".
+
+ -- Promise: represents completion or failure of an asynchronous operation and          it's resulting value.
+
+ -- await: used inside asynchronous functions to pause execution until a Promise resolves or rejects. 
+
+since javascript is single-threaded, (one operation executes at a time), asynchronous functions are useful because they keep 
+the app running while these operations execute. 
+
+express: Node.js framework for web and mobile application development. 
+
+jwt (jsonwebtoken): used to Send authentication parameters between backend and frontend using JSON
