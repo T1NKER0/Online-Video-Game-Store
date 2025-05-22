@@ -1,0 +1,230 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #ece8e8;
+}
+
+/* index.css or App.css */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+/* In your App.css or global CSS file */
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  min-height: 100.1vh; 
+  min-width: 100vw;
+  background-image: url('https://wallpapercat.com/w/full/e/7/3/1261429-3840x2160-desktop-4k-the-playstation-wallpaper-photo.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.home-page {
+  color: white;
+  display: flex;
+  justify-content: left;
+  align-items: baseline;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  min-height: 100.1vh; 
+  min-width: 100vw;
+  background-image: url('https://image.api.playstation.com/vulcan/ap/rnd/202504/0320/68c80108fbd904cf27aeee9988153a34eaa5c1962547fcd7.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.homepage-search-btn {
+  padding: 0.5rem 1rem;
+  background-color: #005eff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.homepage-search-btn:hover {
+  background-color: #0041c4;
+}
+
+.logout-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.logout-btn {
+  padding: 0.5rem 1rem;
+  background-color: #0f0f0f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #333;
+}
+
+.search-results {
+  display: flex;
+  justify-content: center;     /* center horizontally */
+  align-items: center;         /* center vertically */
+  flex-direction: column;      /* stack children vertically */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 100.1vh;
+  min-width: 100vw;
+  background-image: url('https://www.playstationlifestyle.net/wp-content/uploads/sites/9/2025/03/ps5-update-removes-resume-activity-feature.webp?resize=1024,576');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+
+/* Container holding all game cards */
+.game-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* Individual game card styling */
+.game-card {
+  background-color: #1f1f1f;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease-in-out;
+}
+
+.game-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Game image styling */
+.game-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.game-detail {
+  display: flex;
+  justify-content: right;
+  align-items: left;
+  height: 100vh;                /* Fill full viewport height */
+  width: 100vw; 
+  top: -35px; 
+  left: -75px;  
+  bottom: 55px; 
+  flex-direction: column;            /* Fill full viewport width */
+  background-image: url('https://www.playstationlifestyle.net/wp-content/uploads/sites/9/2025/03/ps5-update-removes-resume-activity-feature.webp?resize=1024,576');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  overflow: auto;              /* Enable scrolling if content overflows */
+  margin: 0;
+  padding: 0;
+  position: relative;          /* Relative positioning for children */
+}
+
+.game-description {
+  position: absolute;
+  top: 120px; /* adjust as needed */
+  left: 10px; /* distance from the left edge */
+  width: 300px;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+
+
+
+/* Get button styling */
+.get-btn {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #005eff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.get-btn:hover {
+  background-color: #0041c4;
+}
+
+
+
+
+
