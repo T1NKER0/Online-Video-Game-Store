@@ -1,9 +1,0 @@
-useState: lets react know that the "state" will change during runtime
-
-axios: library to send http requests to node.js
-
-react-router useNavigate: allows navigation from one component to the other using routes
-
-React.FormEvent: events that ocurr during form interatcions e.g submit a form or modify input field
-
-React Router <Link>: Substitute for href, useful for buttons. 
