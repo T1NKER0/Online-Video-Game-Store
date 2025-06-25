@@ -1,0 +1,18 @@
+ADMIN APPLICATION TEST LOG:
+
+Users: 
+1. Create User - Log In with that user: success
+2. Delete User: success
+3. Change Password - Log in with new password: success
+
+Genres:
+4. Create genre: success
+5. Modify genre name: success but note, may not work if games linked to that genre exist
+6. Delete Genre: Success
+
+Games:
+7. Add Game: success
+8. Modify Game: success
+9. Delete Game: success
+
+
