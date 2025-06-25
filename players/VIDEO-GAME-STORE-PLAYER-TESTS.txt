@@ -1,0 +1,19 @@
+VIDEO GAME STORE PLAYER TESTS
+
+1. Search Games: success
+2. View Game info from search results: success
+3. Move back from game info from search results: success
+4. See games per genre: success
+5. Add Games to wishlist: success
+6. See games on wishlist: success
+7. Buy games from search: success
+   **NOTE: MUST FIX PRICE BEING DISPLAYED ON SEARCH RESULTS EVEN WHEN GAME IS OWNED
+8. Games removed from wishlist after buying: Success
+9. Buy games from Genre Search: Success
+   **NOTE: MUST FIX PRICE BEING DISPLAYED ON SEARCH RESULTS EVEN WHEN GAME IS OWNED
+10. Buy games from wishlist: success
+11. Move back to genre game results after clicking game on genre game results: success
+12. Move back to purchased game list after clicking game on purchased games: success
+13. Remove from wishlist: success
+14. Move back to wishlist after clicking game on wishlist: success
+
