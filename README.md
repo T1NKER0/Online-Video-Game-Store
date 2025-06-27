@@ -1,9 +1,10 @@
 # 🎮 PlayStation Store-Inspired System
 
-A system for managing and purchasing digital video games, inspired by the PlayStation Store. It consists of two separate applications: an **Administrator Application** and a **Video Game Store Application**.
+A full-stack system for managing and purchasing digital video games, inspired by the PlayStation Store. It consists of two separate applications: an **Administrator Application** and a **Video Game Store Application**.
 
 > **Technologies Used**  
-> - 🖥️ Frontend: React (for both Admin and Store UIs)  
+> - 🖥️ Frontend: React (for both Admin and Store UIs)
+> - 🔙 Backend: Node.js with Express.js (API services)
 > - 🗄️ Databases: MySQL (Admin and Video Game Store databases)
 
 ---
