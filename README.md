@@ -24,6 +24,7 @@ This application manages two databases:
 - Add new games with details:
   - Title
   - Developer
+  - Genre
   - Price
   - Description
   - Reference image
