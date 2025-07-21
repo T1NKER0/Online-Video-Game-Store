@@ -41,7 +41,7 @@ This application interacts with the `video_game_store` database.
 
 - Create and log into accounts.
 - Browse games by genre.
-- Search for games by title or keyword.
+- Search for games by title.
 - View detailed information about each game.
 - Add or remove games from their wishlist.
 - Purchase games.
